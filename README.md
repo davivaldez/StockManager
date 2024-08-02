@@ -40,6 +40,12 @@ Stock Manager é uma SPA desenvolvida com React, React Router e Vite para gerenc
 
 ## Uso
 
+Para usar a aplicação, acesse o dashboard para visualizar informações sobre seu estoque, incluindo itens adicionados recentemente e aqueles com estoque baixo. Navegue para a página de itens para ver a lista completa, onde você pode visualizar detalhes, atualizar ou excluir itens.
+
+Adicione novos itens na tela de criação e atualize-os na tela correspondente. A navegação é fluida, sem recarregar a página, e todos os dados são armazenados no LocalStorage, garantindo que suas informações sejam preservadas.
+
+A aplicação é responsiva e fácil de usar em dispositivos móveis e desktops.
+
 ### Clonando repositório:
 
     git clone https://github.com/davivaldez/StockManager.git
