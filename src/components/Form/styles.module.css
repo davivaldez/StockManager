@@ -1,0 +1,109 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  gap: 2rem;
+  margin-left: 5rem;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.inputs label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.inputs input {
+  width: 300px;
+  height: 50px;
+  padding: 0.5rem;
+  outline: none;
+  background-color: #1b1a1bd7;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.inputs input:hover {
+  border: 1px solid #4578e4;
+}
+
+.inputs select {
+  padding: 0.5rem;
+  width: 300px;
+  height: 50px;
+  outline: none;
+  background-color: #1b1a1bd7;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.inputs select:hover {
+  border: 1px solid #4578e4;
+}
+
+.description label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.description textarea {
+  width: 81%;
+  height: 200px;
+  background-color: #1b1a1bd7;
+  border: 1px solid transparent;
+  outline: none;
+  transition: 0.3s;
+  padding: 0.5rem;
+}
+
+.description textarea:hover {
+  border: 1px solid #4578e4;
+}
+
+.buttonForm button {
+  background-color: #4578e4;
+}
+
+.buttonForm button:hover {
+  background-color: #4577e4d5;
+}
+
+@media (max-width: 680px) {
+  .form {
+    margin-left: 1rem;
+  }
+  .description textarea {
+    width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .form {
+    padding: 1rem;
+  }
+  .description textarea {
+    width: 300px;
+  }
+}
+
+@media (max-width: 380px) {
+  .inputs input {
+    width: 100%;
+  }
+
+  .inputs select {
+    width: 100%;
+  }
+
+  .description textarea {
+    width: 100%;
+  }
+
+  .buttonForm {
+    text-align: center;
+  }
+}

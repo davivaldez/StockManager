@@ -1,0 +1,31 @@
+.text {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #5c5a5a6b;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: #ffffffbb;
+}
+
+@media (max-width: 310px) {
+  .text {
+    text-align: center;
+  }
+
+  .nav a {
+    text-align: center;
+  }
+}

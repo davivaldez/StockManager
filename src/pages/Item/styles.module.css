@@ -1,0 +1,89 @@
+.item {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item span button {
+  width: 120px;
+}
+
+.redButton button {
+  background-color: #dd5959;
+}
+
+.redButton button:hover {
+  background-color: #dd5959d3;
+}
+
+.details {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.details span {
+  padding: 1rem 2rem;
+  background-color: #1b1a1bd7;
+  border-radius: 0.25rem;
+  position: relative;
+  bottom: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 29px 0px;
+}
+
+.details span:hover {
+  bottom: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 30px, rgba(0, 0, 0, 0.1) 0px -8px 20px, rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.12) 0px 8px 9px, rgba(0, 0, 0, 0.07) 0px -2px 3px;
+}
+
+.description {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.informations {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.error {
+  margin-top: 1rem;
+}
+
+@media (max-width: 523px) {
+  .details {
+    justify-content: center;
+  }
+
+  .details span {
+    width: 280px;
+    text-align: center;
+  }
+
+  .informations {
+    text-align: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .item {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 343px) {
+  .description {
+    text-align: center;
+  }
+
+  .error {
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+.line {
+  display: flex;
+  border-bottom: 2px solid #eeebeb;
+  width: 8rem;
+}
+
+.table {
+  height: 480px;
+  margin-top: 2rem;
+}
+
+@media (max-width: 290px) {
+  .line {
+    width: 7rem;
+  }
+}

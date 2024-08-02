@@ -1,0 +1,13 @@
+.text {
+  margin-top: 2rem;
+}
+
+.error {
+  margin-top: 1rem;
+}
+
+@media (max-width: 343px) {
+  .error {
+    text-align: center;
+  }
+}

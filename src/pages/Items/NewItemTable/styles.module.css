@@ -1,0 +1,27 @@
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.blueButton button {
+  background-color: #4578e4;
+}
+
+.blueButton button:hover {
+  background-color: #4577e4d5;
+}
+
+.redButton button {
+  background-color: #dd5959;
+}
+
+.redButton button:hover {
+  background-color: #dd5959d3;
+}
+
+@media (max-width: 1045px) {
+  .buttons span button {
+    width: 130px;
+  }
+}

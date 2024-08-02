@@ -1,0 +1,14 @@
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer p a {
+  color: #ffffff;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  color: #ffffffbb;
+}

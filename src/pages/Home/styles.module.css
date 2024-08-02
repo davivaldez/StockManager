@@ -1,0 +1,36 @@
+.text {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.items {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+
+.tables {
+  display: flex;
+  gap: 2rem;
+}
+
+.table {
+  width: 100%;
+  height: 350px;
+}
+
+@media (max-width: 855px) {
+  .text {
+    text-align: center;
+  }
+
+  .items {
+    justify-content: center;
+  }
+
+  .tables {
+    flex-direction: column;
+  }
+}
